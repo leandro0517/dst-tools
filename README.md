@@ -1,78 +1,65 @@
 # DST Tools — Professional Trading Suite
 
-A comprehensive trading journal and calculator application.
+A comprehensive trading journal and calculator application designed for traders who want to master their edge.
 
-## Features
+## 📸 Screenshots
 
-- **Trading Calculator:** Calculate position sizes and risk/reward ratios.
-- **Trading Journal:** Log your trades and track performance.
-- **Analytics:** Visualize your trading data with charts and metrics.
-- **Reflections:** Document your trading journey, lessons learned, and daily intentions.
+### 1. Risk Calculator & Market Analysis
+![Calculator](./screenshots/calculator.png)
 
-## Local Setup
+### 2. Advanced Strategy Analytics
+![Analytics 1](./screenshots/analytics-1.png)
 
-To run this project locally, follow these steps:
+### 3. Performance Metrics & Equity Curve
+![Analytics 2](./screenshots/analytics-2.png)
 
-### 1. Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+## 🚀 Quick Start (Run Locally)
 
-### 2. Installation
+Follow these 4 simple steps to get the app running on your computer:
 
-1.  Download or clone the project files.
-2.  Open your terminal and navigate to the project directory.
-3.  Install the dependencies:
+### 1. Download the Code
+Click the green **"Code"** button at the top of this page and select **"Download ZIP"**. Extract the files to a folder on your computer.
 
-    ```bash
-    npm install
-    ```
-
-### 3. Environment Variables
-
-Create a `.env` file in the root directory based on `.env.example`:
-
+### 2. Open Terminal
+Open your terminal (or Command Prompt) and navigate into the project folder:
 ```bash
-cp .env.example .env
+cd dst-tools
 ```
 
-### 4. Running the Development Server
+### 3. Install Dependencies
+Type this and hit **Enter**:
+```bash
+npm install
+```
 
-You can start the app in two ways:
-
-#### Option A: One-Click Launch (Recommended)
-- **Windows:** Double-click the `run.bat` file.
-- **macOS/Linux:** Run the `run.sh` script (you may need to run `chmod +x run.sh` first).
-
-These scripts will automatically install dependencies (if missing), open your browser, and start the app.
-
-#### Option B: Using the Terminal
-Start the local development server:
-
+### 4. Start the App
+Type this and hit **Enter**:
 ```bash
 npm run dev
 ```
+The app will open automatically in your browser at `http://localhost:3000`.
 
-The app will be available at `http://localhost:3000`.
+---
 
-### 5. Building for Production
+## ✨ Features
 
-To create a production-ready build:
+- **Trading Calculator:** Calculate position sizes and risk/reward ratios for Futures, Forex, and Crypto.
+- **Trading Journal:** Log your trades with detailed notes and strategy tagging.
+- **Advanced Analytics:** Visualize your equity curve, drawdown, and strategy performance.
+- **Reflections:** Document your trading journey and daily intentions.
 
-```bash
-npm run build
-```
+## 🛠️ Technologies Used
 
-The output will be in the `dist` folder.
+- **React & Vite:** Fast frontend development.
+- **TypeScript:** Reliable, type-safe code.
+- **Tailwind CSS:** Modern, responsive styling.
+- **Chart.js:** Professional data visualization.
+- **Framer Motion:** Smooth, interactive animations.
 
-## Technologies Used
+---
 
-- **React:** Frontend library.
-- **Vite:** Build tool and dev server.
-- **TypeScript:** Static typing.
-- **Tailwind CSS:** Utility-first CSS framework.
-- **Lucide React:** Icon library.
-- **Chart.js:** Data visualization.
-- **react-chartjs-2:** React wrapper for Chart.js.
-- **date-fns:** Date formatting and manipulation.
-- **Framer Motion:** Smooth animations.
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
