@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --ink: #0a0c10;
+    --ink1: #0d1117;
+    --ink2: #111820;
+    --ink3: #161e2a;
+    --ink4: #1c2636;
+    --wire: #1f2d3d;
+    --wire2: #2a3d52;
+    --wire3: #374f68;
+    --up: #00d084;
+    --up2: #00b870;
+    --dn: #ff4757;
+    --dn2: #e83347;
+    --sky: #0ea5e9;
+    --sky2: #38bdf8;
+    --gold: #f59e0b;
+    --gold2: #fbbf24;
+    --violet: #8b5cf6;
+    --violet2: #a78bfa;
+    --teal: #14b8a6;
+    --teal2: #2dd4bf;
+    --t0: #f0f6ff;
+    --t1: #8fa3be;
+    --t2: #4d6480;
+    --t3: #2a3d55;
+    --r: 8px;
+    --r2: 12px;
+    --r3: 16px;
+  }
+
+  body {
+    @apply bg-[var(--ink)] text-[var(--t0)] font-sans min-h-screen overflow-x-hidden antialiased;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(ellipse 90% 60% at 0% -10%, rgba(14, 165, 233, .04) 0%, transparent 70%), radial-gradient(ellipse 70% 50% at 100% 110%, rgba(0, 208, 132, .03) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-[var(--ink2)] border border-[var(--wire)] rounded-[var(--r3)] overflow-hidden;
+  }
+
+  .panel-hd {
+    @apply flex items-center gap-2.5 px-[18px] py-[13px] border-b border-[var(--wire)] bg-white/1;
+  }
+
+  .iw input, .iw select {
+    @apply w-full px-[13px] py-2.5 bg-[var(--ink)] border border-[var(--wire)] rounded-[var(--r)] text-[var(--t0)] font-mono text-[0.88rem] font-medium outline-none transition-all duration-150;
+  }
+
+  .iw input:hover, .iw select:hover {
+    @apply border-[var(--wire2)];
+  }
+
+  .iw input:focus, .iw select:focus {
+    @apply border-[var(--sky)] shadow-[0_0_0_3px_rgba(14,165,233,0.07)];
+  }
+
+  .calc-btn {
+    @apply w-full px-5 py-3 bg-linear-to-br from-[var(--sky)] to-[#0284c7] border-none rounded-[var(--r)] text-white font-bold text-[0.87rem] cursor-pointer transition-all duration-150 flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(14,165,233,0.22)];
+  }
+
+  .calc-btn:hover {
+    @apply -translate-y-[1px] shadow-[0_6px_22px_rgba(14,165,233,0.38)];
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+.popped {
+  animation: pop 0.2s ease;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wire);
+  border-radius: 2px;
+}
