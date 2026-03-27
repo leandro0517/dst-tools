@@ -5,14 +5,16 @@ A comprehensive trading journal and calculator application designed for traders 
 ## 📸 Screenshots
 
 ### 1. Risk Calculator & Market Analysis
-![Calculator](./screenshots/calcula<img width="1414" height="779" alt="Screenshot 2026-03-27 at 12 11 55 PM" src="https://github.com/user-attachments/assets/f602747c-d8d4-4460-8057-95a4144e3f34" />
+![Calculator]<img width="1414" height="779" alt="Screenshot 2026-03-27 at 12 11 55 PM" src="https://github.com/user-attachments/assets/f602747c-d8d4-4460-8057-95a4144e3f34" />
 tor.png)
 
 ### 2. Advanced Strategy Analytics
-![Analytics 1](./screenshots/analytics-1.png)
+![Analytics 1]<img width="1415" height="793" alt="Screenshot 2026-03-27 at 12 11 45 PM" src="https://github.com/user-attachments/assets/df90d80d-e3b6-471d-9711-b7d09b54c18c" />
+
 
 ### 3. Performance Metrics & Equity Curve
-![Analytics 2](./screenshots/analytics-2.png)
+![Analytics 2]<img width="1430" height="785" alt="Screenshot 2026-03-27 at 12 11 27 PM" src="https://github.com/user-attachments/assets/251eaf24-3af8-4d57-87bb-4e8d03ebb72a" />
+
 
 ---
 
