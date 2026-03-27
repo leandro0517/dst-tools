@@ -18,7 +18,7 @@ A comprehensive trading journal and calculator application designed for traders 
 
 ---
 
-## 🚀 Quick Start (Run Locally)
+## Quick Start (Run Locally)
 
 Follow these 4 simple steps to get the app running on your computer:
 
@@ -46,14 +46,14 @@ The app will open automatically in your browser at `http://localhost:3000`.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Trading Calculator:** Calculate position sizes and risk/reward ratios for Futures, Forex, and Crypto.
 - **Trading Journal:** Log your trades with detailed notes and strategy tagging.
 - **Advanced Analytics:** Visualize your equity curve, drawdown, and strategy performance.
 - **Reflections:** Document your trading journey and daily intentions.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React & Vite:** Fast frontend development.
 - **TypeScript:** Reliable, type-safe code.
@@ -63,6 +63,6 @@ The app will open automatically in your browser at `http://localhost:3000`.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
