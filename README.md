@@ -5,7 +5,8 @@ A comprehensive trading journal and calculator application designed for traders 
 ## 📸 Screenshots
 
 ### 1. Risk Calculator & Market Analysis
-![Calculator](./screenshots/calculator.png)
+![Calculator](./screenshots/calcula<img width="1414" height="779" alt="Screenshot 2026-03-27 at 12 11 55 PM" src="https://github.com/user-attachments/assets/f602747c-d8d4-4460-8057-95a4144e3f34" />
+tor.png)
 
 ### 2. Advanced Strategy Analytics
 ![Analytics 1](./screenshots/analytics-1.png)
